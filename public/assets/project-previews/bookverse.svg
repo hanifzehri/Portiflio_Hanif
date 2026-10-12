@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">BookVerse bookstore preview</title>
+  <desc id="desc">A bright online bookstore interface with illustrated books and shopping controls.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dbeafe"/><stop offset="1" stop-color="#ede9fe"/></linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f8fbff"/></linearGradient>
+    <linearGradient id="cover1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2563eb"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1060" cy="100" r="120" fill="#fff" opacity=".24"/>
+  <rect x="66" y="54" width="1068" height="567" rx="28" fill="url(#panel)" stroke="#fff" stroke-width="3"/>
+  <rect x="66" y="54" width="1068" height="62" rx="28" fill="#fff"/>
+  <path d="M66 90v26h1068V90" fill="#fff"/>
+  <rect x="96" y="72" width="30" height="30" rx="9" fill="url(#cover1)"/>
+  <path d="M107 79h8v17h-8z" fill="#fff"/><text x="137" y="94" fill="#172033" font-family="Arial,sans-serif" font-size="21" font-weight="700">BookVerse</text>
+  <rect x="370" y="73" width="360" height="30" rx="15" fill="#f1f5f9"/><circle cx="391" cy="88" r="6" fill="none" stroke="#94a3b8" stroke-width="2"/><path d="m396 93 5 5" stroke="#94a3b8" stroke-width="2"/><text x="411" y="94" fill="#94a3b8" font-family="Arial,sans-serif" font-size="12">Search books, authors, categories</text>
+  <text x="1000" y="94" fill="#475569" font-family="Arial,sans-serif" font-size="13">Browse</text><circle cx="1090" cy="88" r="14" fill="#eff6ff"/><path d="M1085 83h10l-1 12h-8z" fill="none" stroke="#2563eb" stroke-width="1.6"/>
+  <text x="105" y="161" fill="#172033" font-family="Arial,sans-serif" font-size="30" font-weight="700">Find your next favorite</text>
+  <text x="105" y="186" fill="#64748b" font-family="Arial,sans-serif" font-size="13">Stories, ideas, and inspiration for every reader.</text>
+  <rect x="100" y="210" width="1000" height="54" rx="14" fill="#eff6ff"/>
+  <text x="124" y="243" fill="#1d4ed8" font-family="Arial,sans-serif" font-size="13" font-weight="700">All books</text><text x="235" y="243" fill="#64748b" font-family="Arial,sans-serif" font-size="13">Fiction</text><text x="335" y="243" fill="#64748b" font-family="Arial,sans-serif" font-size="13">Learning</text><text x="450" y="243" fill="#64748b" font-family="Arial,sans-serif" font-size="13">Design</text>
+  <g transform="translate(120 299)">
+    <rect width="210" height="260" rx="16" fill="#fff" stroke="#e2e8f0"/>
+    <rect x="28" y="18" width="154" height="146" rx="10" fill="#eff6ff"/>
+    <path d="M68 46h65v96H68z" fill="url(#cover1)"/><path d="M78 57h4v75h-4z" fill="#fff" opacity=".4"/><path d="M95 89c18-23 32-2 25 14-6 13-25 22-25 22S75 116 70 103c-5-14 9-36 25-14z" fill="#fff" opacity=".85"/>
+    <text x="28" y="191" fill="#172033" font-family="Arial,sans-serif" font-size="14" font-weight="700">The Creative Mind</text><text x="28" y="213" fill="#64748b" font-family="Arial,sans-serif" font-size="11">Ideas for everyday life</text><text x="28" y="243" fill="#2563eb" font-family="Arial,sans-serif" font-size="14" font-weight="700">$18.00</text>
+  </g>
+  <g transform="translate(369 299)">
+    <rect width="210" height="260" rx="16" fill="#fff" stroke="#e2e8f0"/>
+    <rect x="28" y="18" width="154" height="146" rx="10" fill="#f5f3ff"/>
+    <path d="M72 43h70v101H72z" fill="#7c3aed"/><path d="M78 49h58v88H78z" fill="#8b5cf6"/><path d="M94 76c0-10 9-18 18-18s18 8 18 18c0 18-18 38-18 38S94 94 94 76z" fill="#ddd6fe"/><circle cx="112" cy="76" r="5" fill="#7c3aed"/>
+    <text x="28" y="191" fill="#172033" font-family="Arial,sans-serif" font-size="14" font-weight="700">The Quiet Garden</text><text x="28" y="213" fill="#64748b" font-family="Arial,sans-serif" font-size="11">A story of new beginnings</text><text x="28" y="243" fill="#2563eb" font-family="Arial,sans-serif" font-size="14" font-weight="700">$14.50</text>
+  </g>
+  <g transform="translate(618 299)">
+    <rect width="210" height="260" rx="16" fill="#fff" stroke="#e2e8f0"/>
+    <rect x="28" y="18" width="154" height="146" rx="10" fill="#ecfeff"/>
+    <path d="M72 45h70v98H72z" fill="#0891b2"/><path d="M84 61h46M84 72h38M84 83h42" stroke="#cffafe" stroke-width="4" stroke-linecap="round"/><circle cx="109" cy="116" r="18" fill="#67e8f9"/><path d="m101 116 6 6 12-14" fill="none" stroke="#0e7490" stroke-width="3"/>
+    <text x="28" y="191" fill="#172033" font-family="Arial,sans-serif" font-size="14" font-weight="700">Learn Every Day</text><text x="28" y="213" fill="#64748b" font-family="Arial,sans-serif" font-size="11">A practical guide to learning</text><text x="28" y="243" fill="#2563eb" font-family="Arial,sans-serif" font-size="14" font-weight="700">$21.00</text>
+  </g>
+  <g transform="translate(867 299)">
+    <rect width="210" height="260" rx="16" fill="#fff" stroke="#e2e8f0"/>
+    <rect x="28" y="18" width="154" height="146" rx="10" fill="#fef3c7"/>
+    <path d="M72 43h70v101H72z" fill="#f59e0b"/><path d="M107 56 91 104h14l-5 28 27-45h-16l9-31z" fill="#fff7ed"/>
+    <text x="28" y="191" fill="#172033" font-family="Arial,sans-serif" font-size="14" font-weight="700">Bright Ideas</text><text x="28" y="213" fill="#64748b" font-family="Arial,sans-serif" font-size="11">Small lessons, big change</text><text x="28" y="243" fill="#2563eb" font-family="Arial,sans-serif" font-size="14" font-weight="700">$16.00</text>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">CodeInterview collaborative coding platform concept</title>
+  <desc id="desc">A developer workspace concept with a code editor, challenge prompt, and collaboration indicators.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dbeafe"/><stop offset="1" stop-color="#e9d5ff"/></linearGradient><linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#172554"/><stop offset="1" stop-color="#1e1b4b"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#bg)"/><circle cx="1110" cy="565" r="180" fill="#fff" opacity=".25"/>
+  <rect x="57" y="47" width="1086" height="581" rx="25" fill="#fff" stroke="#fff" stroke-width="3"/>
+  <rect x="57" y="47" width="1086" height="66" rx="25" fill="#fff"/><path d="M57 85v28h1086V85" fill="#fff"/>
+  <rect x="85" y="65" width="35" height="35" rx="11" fill="#eff6ff"/><path d="m97 76-7 7 7 7m10-14 7 7-7 7" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="131" y="83" fill="#172033" font-family="Arial,sans-serif" font-size="16" font-weight="700">CodeInterview</text><text x="131" y="99" fill="#64748b" font-family="Arial,sans-serif" font-size="9">PRACTICE TOGETHER</text>
+  <rect x="841" y="63" width="161" height="35" rx="10" fill="#f8fafc"/><circle cx="861" cy="80" r="9" fill="#dbeafe"/><circle cx="857" cy="78" r="3" fill="#2563eb"/><path d="M852 86q5-9 10 0" fill="#2563eb"/><text x="877" y="84" fill="#475569" font-family="Arial,sans-serif" font-size="10">2 collaborators</text>
+  <rect x="1014" y="63" width="99" height="35" rx="10" fill="#2563eb"/><text x="1032" y="85" fill="#fff" font-family="Arial,sans-serif" font-size="10" font-weight="700">Invite team</text>
+  <rect x="57" y="113" width="1086" height="515" fill="#f8fafc"/>
+  <rect x="80" y="136" width="220" height="468" rx="15" fill="#fff" stroke="#e2e8f0"/>
+  <text x="101" y="169" fill="#64748b" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1">CHALLENGE</text>
+  <text x="101" y="203" fill="#172033" font-family="Arial,sans-serif" font-size="16" font-weight="700">Two Sum</text><rect x="101" y="216" width="57" height="21" rx="10" fill="#dcfce7"/><text x="113" y="231" fill="#15803d" font-family="Arial,sans-serif" font-size="9" font-weight="700">Easy</text>
+  <text x="101" y="270" fill="#475569" font-family="Arial,sans-serif" font-size="11">Given an array of integers</text><text x="101" y="289" fill="#475569" font-family="Arial,sans-serif" font-size="11">and a target, return the two</text><text x="101" y="308" fill="#475569" font-family="Arial,sans-serif" font-size="11">indices whose values sum to it.</text>
+  <text x="101" y="352" fill="#172033" font-family="Arial,sans-serif" font-size="10" font-weight="700">Example</text><rect x="101" y="364" width="177" height="59" rx="8" fill="#f1f5f9"/><text x="113" y="387" fill="#475569" font-family="monospace" font-size="10">nums = [2, 7, 11, 15]</text><text x="113" y="406" fill="#475569" font-family="monospace" font-size="10">target = 9  →  [0, 1]</text>
+  <text x="101" y="462" fill="#64748b" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1">LANGUAGE</text><rect x="101" y="476" width="177" height="37" rx="9" fill="#f8fafc" stroke="#e2e8f0"/><text x="117" y="500" fill="#334155" font-family="Arial,sans-serif" font-size="11">JavaScript</text><path d="m254 491 5 5 5-5" fill="none" stroke="#64748b" stroke-width="1.5"/>
+  <rect x="322" y="136" width="797" height="314" rx="15" fill="url(#panel)"/>
+  <path d="M322 178h797" stroke="#334155"/><circle cx="345" cy="157" r="5" fill="#fb7185"/><circle cx="361" cy="157" r="5" fill="#fbbf24"/><circle cx="377" cy="157" r="5" fill="#4ade80"/>
+  <rect x="409" y="144" width="104" height="29" rx="8" fill="#312e81"/><text x="430" y="163" fill="#e0e7ff" font-family="Arial,sans-serif" font-size="10">solution.js</text><text x="1064" y="162" fill="#a5b4fc" font-family="Arial,sans-serif" font-size="10">● Synced</text>
+  <g font-family="monospace" font-size="12">
+    <text x="344" y="209" fill="#64748b">1</text><text x="373" y="209" fill="#c4b5fd">function</text><text x="440" y="209" fill="#f0abfc"> twoSum</text><text x="514" y="209" fill="#e2e8f0">(nums, target) {</text>
+    <text x="344" y="237" fill="#64748b">2</text><text x="389" y="237" fill="#93c5fd">  const</text><text x="446" y="237" fill="#e2e8f0"> seen = </text><text x="497" y="237" fill="#fbbf24">new</text><text x="527" y="237" fill="#4ade80"> Map</text><text x="562" y="237" fill="#e2e8f0">();</text>
+    <text x="344" y="265" fill="#64748b">3</text><text x="389" y="265" fill="#c4b5fd">  for</text><text x="423" y="265" fill="#e2e8f0"> (</text><text x="436" y="265" fill="#fbbf24">let</text><text x="461" y="265" fill="#e2e8f0"> i = 0; i &lt; nums.length; i++) {</text>
+    <text x="344" y="293" fill="#64748b">4</text><text x="413" y="293" fill="#93c5fd">    const</text><text x="480" y="293" fill="#e2e8f0"> complement = target - nums[i];</text>
+    <text x="344" y="321" fill="#64748b">5</text><text x="413" y="321" fill="#c4b5fd">    if</text><text x="441" y="321" fill="#e2e8f0"> (seen.has(complement)) {</text>
+    <text x="344" y="349" fill="#64748b">6</text><text x="437" y="349" fill="#fbbf24">      return</text><text x="516" y="349" fill="#e2e8f0"> [seen.get(complement), i];</text>
+    <text x="344" y="377" fill="#64748b">7</text><text x="413" y="377" fill="#e2e8f0">    }</text><text x="344" y="405" fill="#64748b">8</text><text x="413" y="405" fill="#e2e8f0">    seen.set(nums[i], i);</text><text x="344" y="433" fill="#64748b">9</text><text x="389" y="433" fill="#e2e8f0">  }</text>
+  </g>
+  <rect x="322" y="467" width="797" height="137" rx="15" fill="#fff" stroke="#e2e8f0"/><text x="345" y="498" fill="#172033" font-family="Arial,sans-serif" font-size="13" font-weight="700">Test results</text><rect x="345" y="514" width="751" height="1" fill="#e2e8f0"/><circle cx="360" cy="542" r="8" fill="#dcfce7"/><path d="m356 542 3 3 6-7" fill="none" stroke="#15803d" stroke-width="1.5"/><text x="379" y="546" fill="#334155" font-family="monospace" font-size="10">Example test case</text><text x="1011" y="546" fill="#15803d" font-family="Arial,sans-serif" font-size="10" font-weight="700">Ready to run</text>
+</svg>
