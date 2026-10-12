@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react'
 import { IconArrowRight, IconClose, IconSparkles } from './Icons'
 
@@ -10,7 +11,8 @@ const projectList = [
     tags: ['React', 'Vite', 'Local Storage', 'Responsive UI'],
     preview: 'bookverse',
     image: '/assets/project-previews/bookverse.svg',
-    githubUrl: 'https://github.com/hanifzehri/Bookstore_frontend'
+    githubUrl: 'https://bookstore-frontend-zeta-ten.vercel.app/',
+    demoUrl: 'https://bookstore-frontend-zeta-ten.vercel.app/'
   },
   {
     id: 'chat app',
@@ -20,7 +22,8 @@ const projectList = [
     tags: ['React', 'Tailwind CSS', 'Node.js', 'MongoDB'],
     preview: 'hostel',
     image: '/assets/project-previews/royal-hostel.svg',
-    githubUrl: 'https://github.com/hanifzehri/hostel-managment'
+    githubUrl: 'https://github.com/hanifzehri/hostel-managment',
+    demoUrl: '#'
   },
   {
     id: 'expense tracker',
@@ -29,7 +32,8 @@ const projectList = [
     description: 'An educational AI platform concept designed to help students learn mathematics, physics, chemistry, biology, and web development.',
     tags: ['AI Learning', 'Education', 'React', 'Web App Concept'],
     preview: 'smit',
-    image: '/assets/project-previews/smit-ai.svg'
+    image: '/assets/project-previews/smit-ai.svg',
+    demoUrl: '#'
   },
   {
     id: 'khuzdar-travel',
@@ -38,7 +42,8 @@ const projectList = [
     description: 'A travel website concept featuring destinations, travel information, booking options, and travel assistance for people in Khuzdar and Balochistan.',
     tags: ['Travel', 'Booking UI', 'React', 'Responsive Design'],
     preview: 'travel',
-    image: '/assets/project-previews/khuzdar-travel.svg'
+    image: '/assets/project-previews/khuzdar-travel.svg',
+    demoUrl: '#'
   },
   {
     id: 'child-protection',
@@ -47,7 +52,8 @@ const projectList = [
     description: 'A child protection awareness website concept featuring safety information, educational resources, reporting guidance, and a secure admin dashboard concept.',
     tags: ['Awareness', 'Accessibility', 'React', 'Web App Concept'],
     preview: 'child',
-    image: '/assets/project-previews/child-protection.svg'
+    image: '/assets/project-previews/child-protection.svg',
+    demoUrl: '#'
   },
   {
     id: 'codeinterview',
@@ -56,7 +62,8 @@ const projectList = [
     description: 'A coding platform concept featuring a collaborative code editor, programming challenges, interview practice, and real-time collaboration features.',
     tags: ['Code Editor', 'Developer Tools', 'React', 'Web App Concept'],
     preview: 'code',
-    image: '/assets/project-previews/codeinterview.svg'
+    image: '/assets/project-previews/codeinterview.svg',
+    demoUrl: '#'
   }
 ]
 
@@ -127,6 +134,19 @@ export default function Projects() {
                     <span>Project overview</span>
                     <IconArrowRight size={17} />
                   </button>
+
+                  {project.demoUrl && (
+                    <a
+                      className="btn btn-secondary"
+                      href={project.demoUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={`View ${project.title} demo`}
+                    >
+                      Demo
+                    </a>
+                  )}
+
                   {project.githubUrl && (
                     <a
                       className="btn btn-secondary"
